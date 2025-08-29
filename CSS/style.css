@@ -1,0 +1,21 @@
+h1{
+    /*chỉ định thuộc tính của h1*/
+    color: blue;
+p{
+    /*chỉ định thuộc tính của p*/
+    color: red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify: /*canh deu 2, bên Justify, left, night, center*/
+    text-align: justify: /* canh diu 2 bên justify, left, right, center*/
+    line-height: 1.S: /* khoảng cách glữa các đòng 1.5", 15px - 22.5px*/
+    text-transforn: none; /* chuyến chữ thường thành chữ hoa: uppercase lowercase capitallze */ 
+    text-decoration:none; /* gach chan chữ: underline Line-through overline nonet/ 
+    font-weight: 400; /* độ đậu của chứ: thân light noral: medium seml-bold: bold (100, 200, **, 900) */
+    word-spacing: 1px; /* khoảng cách giữa các từ */
+    width:608px;/* độ rộng của đoạn văn */
+    background-color: white; /*màu nền*/
+    border-botton: 2px soild black; /* đường viền dưới đoạn văn */
+    
+
+}
