@@ -1,0 +1,54 @@
+*{/* det chung style cho tất cả mọi phần tử*/
+    box-sizing: border-box; /* tính cả padding và border vào kích thước thẻ*/
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none; /* bỏ gạch chân của thẻ a*/
+}
+a:hover{ /*set sẵn mẫu cho hover, link */
+    color: red; /* đổi màu chữ khi hover*/
+}
+body{
+    background-color: rgb(157, 202, 231);/*màu nền body*/
+    color: rgb(97, 82, 101);/*màu chữ*/
+    font-size: 14px; /*kích thước chữ*/
+    font-weight: 400; /*độ đậm chữ*/
+    font-family:  "Story Script", sans-serif ; /*font chữ*/
+    text-align: left; /* canh lề trái, phải, giữa*/
+}
+p{
+    margin-bottom: 0.75rem; /*khoảng cách dưới mỗi đoạn*/
+
+}
+.section{
+    float: left;
+    width: 100%;
+
+}
+.container{
+    float: none;
+    margin-left:auto ;
+    margin-right: auto;
+    width: 1200px;
+
+}
+.nav{
+    background-color: rgb(163, 48, 125);
+}
+.nav ul li{
+    float: left;
+    list-style: none; 
+    margin-right: 30px;
+    padding-top : 15px;
+    padding-bottom: 15px;
+}
+.nav li a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.nav ul li.right{
+    float: right;
+}

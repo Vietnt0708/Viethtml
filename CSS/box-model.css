@@ -1,0 +1,22 @@
+div{
+    width: calc(20% - 42px); /*25% là kích thước thẻ, 42px là tổng của padding + border + margin*/
+    float: left;
+    border: 1px solid blue;
+    margin: 10px; /*khoảng cách bên ngoài*/
+    padding: 15px; /*khoảng cách bên trong*/
+    box-sizing: border-box; /*tính cả padding và border vào kích thước thẻ*/
+    border: 5px solid red; /*nên để border-box để không bị vượt quá kích thước thẻ*/
+    background-color: lightsalmon;
+
+}
+div :hover{
+    background-color: lightblue;
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0); /*phóng to thẻ khi hover*/
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+img{
+    max-width: 100%; /*co hình ảnh về kích thước cua thẻ nếu nó vượt quá */
+}
+.box{
+    background-color: lightseagreen;
+}
