@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="CSS/profile.css">
+</head>
+<body>
+  <div class="profile-container">
+    <img src="images/avt.jpg" alt="Avatar" class="avatar">
+    <h2>Thông tin cá nhân</h2>
+
+    <div class="info-box">
+      <label for="name">Họ và tên:</label>
+      <input type="text" id="name">
+    </div>
+
+    <div class="info-box">
+      <label for="dob">Ngày sinh:</label>
+      <input type="date" id="dob">
+    </div>
+
+    <div class="info-box">
+      <label for="phone">Số điện thoại:</label>
+      <input type="tel" id="phone">
+    </div>
+
+    <div class="info-box">
+      <label for="address">Địa chỉ:</label>
+      <input type="text" id="address">
+    </div>
+
+    <div class="info-box">
+      <label for="email">Email:</label>
+      <input type="email" id="email">
+    </div>
+
+    <div class="info-box">
+      <label for="password">Mật khẩu:</label>
+      <input type="password" id="password">
+    </div>
+
+    <button id="saveBtn">💾 Lưu thông tin</button>
+  </div>
+
+  <script>
+    // Load dữ liệu từ localStorage khi mở trang
+    document.getElementById("name").value = localStorage.getItem("username") || "";
+    document.getElementById("dob").value = localStorage.getItem("dob") || "";
+    document.getElementById("phone").value = localStorage.getItem("phone") || "";
+    document.getElementById("address").value = localStorage.getItem("address") || "";
+    document.getElementById("email").value = localStorage.getItem("email") || "";
+    document.getElementById("password").value = localStorage.getItem("password") || "";
+  </script>
+</body>
+</html>
